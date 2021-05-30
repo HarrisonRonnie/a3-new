@@ -13,6 +13,20 @@ body {
 }
 
 .section  {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 150px;
+  display: flex;
+  padding: 50px, 50px;
+  justify-content: center;
+  align-items: top;
+  background-color: #ffffff;
+  color: rgb(73, 73, 73);
+
+
+}
+
+.section1  {
   scroll-snap-align: center;
   height: 100vh;
   display: flex;
@@ -117,51 +131,4 @@ body {
 
 /* Stopwatch */
 
-html {
-  height: 100%;
-  font-family: "Roboto Condensed", sans-serif;
-}
 
-body {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center
-}
-
-.container {
-  padding: 15px;
-  border-radius: 5px;
-  background-color: rgb(54, 0, 124);
-  color: rgb(255, 255, 255);
-}
-
-.screen span {
-  display: inline-block;
-  width: 85px;
-  text-align: center;
-}
-
-.buttons {
-  display: flex;
-  margin: 10px -5px 0;
-}
-
-.buttons button {
-  flex: 1;
-  margin: 0 5px;
-  border: none;
-  font-size: 20px;
-  padding: 5px;
-  border-radius: 5px;
-  font-weight: bold;
-  color: #ffffff;
-  background-color: rgb(0, 158, 163);
-  outline: none;
-  cursor: pointer;
-}
-
-.buttons button:hover {
-  color: rgb(54, 0, 124);
-  background-color: #ffffff;
-}
