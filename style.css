@@ -10,7 +10,43 @@ body {
   scroll-snap-type: y mandatory;
 }
 
-.section {
+.section  {
+  scroll-snap-align: center;
+  height: 100vh;
+  display: flex;
+  padding: 50px, 50px;
+  justify-content: center;
+  align-items: top;
+  background-color: #ffffff;
+  color: rgb(73, 73, 73);
+  font-size: 45px;
+}
+
+.section2 {
+  scroll-snap-align: center;
+  height: 100vh;
+  display: flex;
+  padding: 50px, 50px;
+  justify-content: center;
+  align-items: top;
+  background-color: #ffffff;
+  color: rgb(73, 73, 73);
+  font-size: 45px;
+}
+
+.section3 {
+  scroll-snap-align: center;
+  height: 100vh;
+  display: flex;
+  padding: 50px, 50px;
+  justify-content: center;
+  align-items: top;
+  background-color: #ffffff;
+  color: rgb(73, 73, 73);
+  font-size: 45px;
+}
+
+.section4 {
   scroll-snap-align: center;
   height: 100vh;
   display: flex;
@@ -23,27 +59,27 @@ body {
 }
 
 .sidenav {
-  width: 175px;
+  width: 185px;
   position: fixed;
   z-index: 1;
   top: 10px;
-  left: 5px;
+  left: 0px;
   background: rgb(255, 255, 255);
   overflow-x: hidden;
-  padding: 50px 0;
+  padding: 10px 0;
 }
 
 .sidenav a {
-  padding: 40px 8px 6px 16px;
+  padding: 60px 8px 6px 16px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 30px;
-  color: rgb(153, 0, 255);
+  font-size: 25px;
+  color: rgb(54, 0, 124);
   display: block;
 }
 
 .sidenav a:hover {
-  color: #420079;
+  color: rgb(147, 64, 255);
 }
 
 .main {
@@ -57,6 +93,18 @@ body {
   .sidenav a {font-size: 18px;}
 
   .section {
+  font-size: 25px;
+  }
+
+    .section2 {
+  font-size: 25px;
+  }
+
+    .section3 {
+  font-size: 25px;
+  }
+
+    .section4 {
   font-size: 25px;
   }
   .main {
