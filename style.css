@@ -15,10 +15,10 @@ body {
 .stopwatch  {
   position: sticky;
   scroll-snap-align: center;
-  height: 400px;
+  height: 350px;
   display: flex;
   padding: 50px, 50px;
-  justify-content: right;
+  justify-content: center;
   align-items: top;
   color: rgb(73, 73, 73);
 
@@ -29,7 +29,7 @@ body {
   scroll-snap-align: center;
   height: 100vh;
   display: flex;
-  padding: 50px, 50px;
+  padding: 500px, 50px;
   justify-content: center;
   align-items: top;
   color: rgb(73, 73, 73);
@@ -130,8 +130,7 @@ body {
 .container {
   padding: 15px;
   border-radius: 5px;
-  background-color: rgb(54, 0, 124);
-  color: rgb(255, 255, 255);
+  color: rgb(56, 56, 56);
 }
 
 .buttons {
