@@ -11,22 +11,22 @@
 
 <body>
 	<nav class="sidenav">
-          <ul>
-            <a href="#stopwatch">Stopwatch</a>
-            <a href="#tasklist">Tasklist</a>
-            <a href="#kanban">Kanban Board</a>
-            <a href="#pomodoro">Pomodoro Timer</a>
-            <a href="#dictionary">Dictionary</a>
-            <a href="#music">Music Player</a>
-          </ul>
+		<ul>
+			<a href="#stopwatch">Stopwatch</a>
+			<a href="#tasklist">Tasklist</a>
+			<a href="#kanban">Kanban Board</a>
+			<a href="#pomodoro">Pomodoro Timer</a>
+			<a href="#dictionary">Dictionary</a>
+			<a href="#music">Music Player</a>
+		</ul>
 	</nav>
 
 	<div class="main">
 		<div class="wrapper">
-        <div class="stopwatch">
-             <div class="container">
-      <h1 class="screen">
-        <span id="minutes">
+			<div class="stopwatch">
+				<div class="container">
+					<h1 class="screen">
+						<span id="minutes">
           00
         </span>:<span id="seconds">
           00
@@ -47,8 +47,27 @@
         </div>
 
         <div class="kanban">
-          <h2 id="kanban">Kanban Board</h2>
           
+          <br>
+                  <main id="app">
+            <section id="board">
+                <div id="add-task-form">
+                    <input id="task-value" placeholder="Add task">
+                    <button id="add-task">+</button>
+                </div>
+                <h2 id="kanban">Kanban Board</h2>
+                
+            </section>
+            <section id="columns">
+                <div class="column dropzone">
+                    <h3 class="column-title">To Do</h3>
+                    <ul class="tasks" id="tasks-added">
+                    </ul>
+                </div>
+                <div class="column dropzone">
+                    <h3 class="column-title">Urgent</h3>
+                </div>
+            </section>
         </div>
 
         <div class="pomodoro">
